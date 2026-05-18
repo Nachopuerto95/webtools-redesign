@@ -1,0 +1,43 @@
+/* Design tokens — generated from tokens.json by /init-proyecto */
+/* Update tokens.json and re-run /init-proyecto to regenerate. */
+
+:root {
+  /* Color */
+  --color-primary:        #0080FF;
+  --color-primary-hover:  #0066cc;
+  --color-accent:         #0693e3;
+  --color-text:           #0a0a0a;
+  --color-text-muted:     #6b7280;
+  --color-background:     #ffffff;
+  --color-surface:        #f7f9fc;
+  --color-border:         #e5e7eb;
+  --color-success:        #10b981;
+  --color-warning:        #f59e0b;
+  --color-error:          #ef4444;
+
+  /* Typography */
+  --font-display: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-body:    'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Spacing */
+  --space-xs:  0.25rem;
+  --space-sm:  0.5rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* Border radius */
+  --radius-sm:   0.375rem;
+  --radius-md:   0.5rem;
+  --radius-lg:   0.75rem;
+  --radius-xl:   1rem;
+  --radius-2xl:  1.5rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
+  --shadow-lg: 0 8px 24px rgba(0,0,0,0.12);
+}

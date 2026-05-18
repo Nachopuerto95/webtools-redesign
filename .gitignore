@@ -1,0 +1,28 @@
+# Client web repo — never committed to the system
+web/
+
+# Node
+node_modules/
+dist/
+.env*
+
+# Per-project generated content — stays in the project fork, not in the system
+design-system/_variants/*
+!design-system/_variants/.gitkeep
+design-system/accepted/*
+!design-system/accepted/.gitkeep
+design-system/library/*
+!design-system/library/.gitkeep
+analisis/*
+!analisis/.gitkeep
+design-system/project.json
+referencias/marca/*
+!referencias/marca/.gitkeep
+referencias/inspiracion/*
+!referencias/inspiracion/.gitkeep
+referencias/competencia/*
+!referencias/competencia/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
