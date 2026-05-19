@@ -1,0 +1,5 @@
+[     232ms] [INFO] <Suspense> is an experimental feature and its API will likely change. @ http://localhost:5175/node_modules/.vite/deps/vue.js?v=94d76c26:9416
+[     318ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5175/favicon.ico:0
+[  323045ms] [INFO] <Suspense> is an experimental feature and its API will likely change. @ http://localhost:5175/node_modules/.vite/deps/vue.js?v=94d76c26:9416
+[  325945ms] [INFO] <Suspense> is an experimental feature and its API will likely change. @ http://localhost:5175/node_modules/.vite/deps/vue.js?v=94d76c26:9416
+[ 2314808ms] [INFO] <Suspense> is an experimental feature and its API will likely change. @ http://localhost:5175/node_modules/.vite/deps/vue.js?v=94d76c26:9416

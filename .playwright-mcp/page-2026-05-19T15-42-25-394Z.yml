@@ -1,0 +1,116 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: DS
+      - generic [ref=e7]:
+        - paragraph [ref=e8]: Design Playground
+        - paragraph [ref=e9]: Component preview
+    - navigation [ref=e10]:
+      - paragraph [ref=e11]: Components
+      - button "Navbar 10" [ref=e12] [cursor=pointer]:
+        - text: Navbar
+        - generic [ref=e13]: "10"
+    - generic [ref=e15]: Hot-reload active
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "Navbar" [level=1] [ref=e20]
+        - tablist [ref=e21]:
+          - tab "v01-stripe-clean" [ref=e22] [cursor=pointer]
+          - tab "v02-enterprise-topbar" [active] [selected] [ref=e23] [cursor=pointer]
+          - tab "v03-linear-dark" [ref=e24] [cursor=pointer]
+          - tab "v04-mega-full" [ref=e25] [cursor=pointer]
+          - tab "v05-sticky-blur" [ref=e26] [cursor=pointer]
+          - tab "v06-glass-floating" [ref=e27] [cursor=pointer]
+          - tab "v07-bold-primary" [ref=e28] [cursor=pointer]
+          - tab "v08-split-cta" [ref=e29] [cursor=pointer]
+          - tab "v09-pill-sections" [ref=e30] [cursor=pointer]
+          - tab "v10-saas-modern" [ref=e31] [cursor=pointer]
+      - generic [ref=e32]:
+        - generic [ref=e79]:
+          - complementary "Información de contacto y accesos rápidos" [ref=e80]:
+            - generic [ref=e81]:
+              - generic [ref=e82]:
+                - link "Llamar a Webtools" [ref=e83] [cursor=pointer]:
+                  - /url: tel:+34914119324
+                  - generic [ref=e84]: ✆
+                  - text: +34 91 411 93 24
+                - link "Enviar email a Webtools" [ref=e86] [cursor=pointer]:
+                  - /url: mailto:info@webtools.es
+                  - generic [ref=e87]: ✉
+                  - text: info@webtools.es
+              - navigation "Accesos rápidos" [ref=e88]:
+                - link "Casos de éxito" [ref=e89] [cursor=pointer]:
+                  - /url: /casos-de-exito/
+                - link "Contacta" [ref=e90] [cursor=pointer]:
+                  - /url: /contacto/
+          - banner [ref=e91]:
+            - generic [ref=e92]:
+              - link "Webtools — inicio" [ref=e93] [cursor=pointer]:
+                - /url: /
+                - img "webtools" [ref=e94]
+              - navigation "Navegación principal" [ref=e95]:
+                - list [ref=e96]:
+                  - listitem [ref=e97]:
+                    - link "Inicio" [ref=e98] [cursor=pointer]:
+                      - /url: /
+                  - listitem [ref=e99]:
+                    - button "Software" [ref=e100] [cursor=pointer]:
+                      - text: Software
+                      - img [ref=e101]
+                    - menu "Submenú de Software":
+                      - menuitem "Encuesta.com"
+                      - menuitem "MyScore"
+                      - menuitem "Plataforma Acciones de Calidad"
+                  - listitem [ref=e103]:
+                    - button "Consultoría" [ref=e104] [cursor=pointer]:
+                      - text: Consultoría
+                      - img [ref=e105]
+                    - menu "Submenú de Consultoría":
+                      - menuitem "Experiencia del cliente"
+                      - menuitem "Experiencia del empleado"
+                      - menuitem "Investigación de mercado"
+                  - listitem [ref=e107]:
+                    - button "Empresa" [ref=e108] [cursor=pointer]:
+                      - text: Empresa
+                      - img [ref=e109]
+                    - menu "Submenú de Empresa":
+                      - menuitem "Casos de éxito"
+                      - menuitem "Equipo"
+                      - menuitem "Contacta"
+                  - listitem [ref=e111]:
+                    - button "Recursos" [ref=e112] [cursor=pointer]:
+                      - text: Recursos
+                      - img [ref=e113]
+                    - menu "Submenú de Recursos":
+                      - menuitem "Blog"
+                      - menuitem "NPS y CSat"
+                      - menuitem "Test de Concepto"
+                      - menuitem "Clima Laboral"
+                      - menuitem "Evaluación 360º"
+                      - menuitem "Encuestas Redaccionales"
+                      - menuitem "Exámenes online"
+                      - menuitem "Distribución de la encuesta"
+              - link "Solicita una demo" [ref=e116] [cursor=pointer]:
+                - /url: /demo-request/
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - paragraph [ref=e60]: Tagline · Value proposition
+            - heading [level=2] [ref=e61]: Main headline that explains what the product does
+            - paragraph [ref=e62]: Supporting copy that gives more detail about the offering and the target audience. Two lines max.
+            - generic [ref=e63]:
+              - generic [ref=e64]: Primary CTA
+              - generic [ref=e65]: Secondary CTA →
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - generic [ref=e68]: ◆
+              - generic [ref=e69]: Product A
+              - generic [ref=e70]: Short description of what this product or feature does for the user.
+            - generic [ref=e71]:
+              - generic [ref=e72]: ▲
+              - generic [ref=e73]: Product B
+              - generic [ref=e74]: Short description of what this product or feature does for the user.
+            - generic [ref=e75]:
+              - generic [ref=e76]: ●
+              - generic [ref=e77]: Product C
+              - generic [ref=e78]: Short description of what this product or feature does for the user.

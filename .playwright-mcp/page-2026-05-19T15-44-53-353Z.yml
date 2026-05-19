@@ -1,0 +1,301 @@
+- generic [active] [ref=e1]:
+  - link "Saltar al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "CONTACTO +34 91 411 93 24" [ref=e6] [cursor=pointer]:
+        - /url: tel:+34914119324
+        - generic [ref=e7]: CONTACTO
+        - generic [ref=e8]: +34 91 411 93 24
+      - generic [ref=e9]:
+        - link "Webtools en Facebook" [ref=e10] [cursor=pointer]:
+          - /url: https://www.facebook.com/eswebtools
+          - img [ref=e11]
+        - link "Webtools en Instagram" [ref=e14] [cursor=pointer]:
+          - /url: https://www.instagram.com/webtools.es/
+          - img [ref=e15]
+        - link "Webtools en LinkedIn" [ref=e20] [cursor=pointer]:
+          - /url: https://es.linkedin.com/company/webtools
+          - img [ref=e21]
+    - generic [ref=e26]:
+      - link "Inicio - Webtools" [ref=e27] [cursor=pointer]:
+        - /url: /
+        - img "Webtools" [ref=e28]
+      - navigation "Navegación principal" [ref=e29]:
+        - link "Inicio" [ref=e30] [cursor=pointer]:
+          - /url: /
+        - button "Software" [ref=e32]:
+          - text: Software
+          - img [ref=e33]
+        - button "Consultoría" [ref=e36]:
+          - text: Consultoría
+          - img [ref=e37]
+        - button "Empresa" [ref=e40]:
+          - text: Empresa
+          - img [ref=e41]
+        - button "Recursos" [ref=e44]:
+          - text: Recursos
+          - img [ref=e45]
+        - link "Blog" [ref=e47] [cursor=pointer]:
+          - /url: /blog/
+      - link "Solicita una demo" [ref=e49] [cursor=pointer]:
+        - /url: /demo-request/
+  - main [ref=e50]:
+    - generic [ref=e56]:
+      - heading "Mejora la experiencia de tus Clientes, Empleados, Productos, Servicios" [level=1] [ref=e57]:
+        - text: Mejora la experiencia
+        - generic [ref=e58]:
+          - text: de tus
+          - generic "Clientes, Empleados, Productos, Servicios" [ref=e59]:
+            - generic [ref=e60]: Clientes
+            - generic [ref=e61]: Empleados
+            - generic [ref=e62]: Productos
+            - generic [ref=e63]: Servicios
+      - paragraph [ref=e64]:
+        - strong [ref=e65]: Investiga
+        - text: ","
+        - strong [ref=e66]: mide
+        - text: "y"
+        - strong [ref=e67]: optimiza
+        - text: para aportar valor en cada paso del camino.
+      - paragraph [ref=e68]:
+        - text: Implementamos un sistema de evaluación a tu medida, para escuchar su voz mediante
+        - strong [ref=e69]: encuestas
+        - text: .
+    - region "Clientes que confían en Webtools" [ref=e70]
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - heading "Del dato a la acción" [level=2] [ref=e76]
+        - generic [ref=e77]:
+          - paragraph [ref=e78]: Te ayudamos a conseguir el feedback que necesitas para acelerar el éxito de tu proyecto mediante encuestas online. Piensa en Webtools como una extensión de tu equipo.
+          - paragraph [ref=e79]: Nos enfocamos en recopilar información de calidad e integrarla con los sistemas de tu empresa para acelerar y optimizar la forma en la que se utiliza.
+        - link "Saber más" [ref=e81] [cursor=pointer]:
+          - /url: /demo-request/
+      - img "Equipo de Webtools analizando datos en pantalla" [ref=e84]
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - paragraph [ref=e89]: Clientes satisfechos
+          - heading "Empresas que confían en Webtools" [level=2] [ref=e90]
+        - generic [ref=e91]:
+          - button "Testimonio anterior" [ref=e92]:
+            - img [ref=e93]
+          - button "Testimonio siguiente" [ref=e95]:
+            - img [ref=e96]
+      - region "Testimonios de clientes" [ref=e99]:
+        - article [ref=e100]:
+          - img "Endesa" [ref=e102]
+          - blockquote [ref=e103]:
+            - paragraph [ref=e104]: "\"La plataforma de encuestas se adapta muy bien a nuestras necesidades. Es muy ágil y flexible. Pero sin duda, lo que ha hecho un éxito del proyecto es el equipo de profesionales de Webtools, que han demostrado en todo momento una predisposición y una dedicación dignas de admiración y agradecimiento.\""
+          - generic [ref=e105]:
+            - paragraph [ref=e106]: Paloma Hernández
+            - paragraph [ref=e107]: RRHH Endesa
+        - article [ref=e108]:
+          - img "Lenovo" [ref=e110]
+          - blockquote [ref=e111]:
+            - paragraph [ref=e112]: "\"Simply put, Webtools was the answer to our global reach, at competitive prices. No request is out of the question and usually can be accommodated within the current budget and in a reasonable timeframe. Very responsive team and easy company to work with. I enjoy our partnership.\""
+          - generic [ref=e113]:
+            - paragraph [ref=e114]: Lena Henry
+            - paragraph [ref=e115]: Director, Customer Experience LENOVO North America
+        - article [ref=e116]:
+          - img "Fundación La Caixa" [ref=e118]
+          - blockquote [ref=e119]:
+            - paragraph [ref=e120]: "\"Durante los años de trabajo con WEBTOOLS como empresa proveedora de los sistemas de encuestas y evaluación de la experiencia de usuario / visitante en los centros CAIXAFORUM / COSMOCAIXA de la Fundación la Caixa, implementamos de forma satisfactoria diversas metodologías de gran valor.\""
+          - generic [ref=e121]:
+            - paragraph [ref=e122]: Alejandro Fernández
+            - paragraph [ref=e123]: Responsable Comercial Fundación la Caixa
+        - article [ref=e124]:
+          - img "Orange" [ref=e126]
+          - blockquote [ref=e127]:
+            - paragraph [ref=e128]: "\"Desde el 2014 llevamos una larga trayectoria con la empresa Webtools, facilitando nuestro trabajo de investigación, con una rápida respuesta a los problemas que pueden surgir en el lanzamiento de estudios. Es una herramienta versátil y a la vez sencilla. Tenemos una satisfacción muy alta con el servicio de Webtools.\""
+          - generic [ref=e129]:
+            - paragraph [ref=e130]: María José García Millán
+            - paragraph [ref=e131]: Torre de marcas y Estudios de mercado Orange
+        - article [ref=e132]:
+          - img "Vodafone" [ref=e134]
+          - blockquote [ref=e135]:
+            - paragraph [ref=e136]: "\"Estos siete años trabajando con Webtools para medir una parte fundamental de nuestro servicio han sido estupendos, siempre se han mostrado dispuestos, accesibles y muy eficaces con todas nuestras solicitudes.\""
+          - generic [ref=e137]:
+            - paragraph [ref=e138]: David Domínguez
+            - paragraph [ref=e139]: Customer Experience Vodafone
+        - article [ref=e140]:
+          - generic [ref=e141]:
+            - img "Bolsa de Valores de Santiago"
+          - blockquote [ref=e142]:
+            - paragraph [ref=e143]: "\"Nos preocupaba acertar con los aspectos más sensibles de la encuesta. Desde el primer momento nos sentimos acompañados por un grupo de expertos profesional, fiable y transparente.\""
+          - generic [ref=e144]:
+            - paragraph [ref=e145]: Katherine Rosenqvist G.
+            - paragraph [ref=e146]: HR Bolsa de Valores de Chile
+        - article [ref=e147]:
+          - generic [ref=e148]:
+            - img "Iveco"
+          - blockquote [ref=e149]:
+            - paragraph [ref=e150]: "\"Conocimos Webtools cuando buscamos simplificar y agilizar la valoración de nuestro servicio de Atención al Cliente. Desde entonces ha crecido la colaboración incluyendo diferentes y retadores proyectos fruto de la confianza y seguridad que nos han demostrado cada día.\""
+          - generic [ref=e151]:
+            - paragraph [ref=e152]: Miquel Devesa
+            - paragraph [ref=e153]: Iveco
+        - article [ref=e154]:
+          - generic [ref=e155]:
+            - img "Dreamfit"
+          - blockquote [ref=e156]:
+            - paragraph [ref=e157]: "\"Llevamos varios años colaborando con el equipo Webtools en proyectos de evaluación de empleados y satisfacción de clientes. Tienen nuestra confianza para gestionar procesos tan relevantes. La receta es sencilla. Seriedad, eficacia y compromisos cumplidos.\""
+          - generic [ref=e158]:
+            - paragraph [ref=e159]: Marcos Verburgh
+            - paragraph [ref=e160]: Director General Dreamfit
+    - generic [ref=e162]:
+      - heading "¿Por qué elegir webtools?" [level=2] [ref=e163]
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - img "Profesional usando software de encuestas en oficina moderna" [ref=e167]
+          - generic [ref=e168]:
+            - paragraph [ref=e169]: Software + Investigación
+            - heading "Software + Investigación de Mercados" [level=3] [ref=e170]
+            - list [ref=e171]:
+              - listitem [ref=e172]:
+                - img [ref=e174]
+                - generic [ref=e176]: Hazlo tú mismo
+              - listitem [ref=e177]:
+                - img [ref=e179]
+                - generic [ref=e181]: Con nuestro apoyo
+              - listitem [ref=e182]:
+                - img [ref=e184]
+                - generic [ref=e186]: Olvídate de todo
+            - link "Saber más" [ref=e188] [cursor=pointer]:
+              - /url: /servicios-de-investigacion-de-mercados/
+        - generic [ref=e189]:
+          - img "Profesional trabajando con interfaz personalizada" [ref=e191]
+          - generic [ref=e192]:
+            - heading "Nos adaptamos a ti, no tú a nosotros" [level=3] [ref=e193]
+            - list [ref=e194]:
+              - listitem [ref=e195]:
+                - img [ref=e197]
+                - generic [ref=e199]: Desarrollos ad hoc
+              - listitem [ref=e200]:
+                - img [ref=e202]
+                - generic [ref=e204]: Soluciones a medida
+              - listitem [ref=e205]:
+                - img [ref=e207]
+                - generic [ref=e209]: Look & Feel 100% customizable
+            - link "Saber más" [ref=e211] [cursor=pointer]:
+              - /url: /servicios-de-investigacion-de-mercados/
+        - generic [ref=e212]:
+          - img "Equipo celebrando éxito con clientes" [ref=e214]
+          - generic [ref=e215]:
+            - heading "Nuestros clientes ¡Nos recomiendan!" [level=3] [ref=e216]
+            - list [ref=e217]:
+              - listitem [ref=e218]:
+                - img [ref=e220]
+                - generic [ref=e222]: NPS > 70 en 2021, y creciendo
+              - listitem [ref=e223]:
+                - img [ref=e225]
+                - generic [ref=e227]: SLAs. Disponibles 99,95% tiempo
+              - listitem [ref=e228]:
+                - img [ref=e230]
+                - generic [ref=e232]: +50% clientes continúan tras +10 años
+            - link "Saber más" [ref=e234] [cursor=pointer]:
+              - /url: /experiencia-del-cliente/
+    - generic [ref=e237]:
+      - paragraph [ref=e238]: Descubre Webtools
+      - heading "Cuéntanos tus necesidades de investigación" [level=2] [ref=e239]
+      - link "Contactar" [ref=e241] [cursor=pointer]:
+        - /url: /contacto/
+  - contentinfo [ref=e242]:
+    - generic [ref=e243]:
+      - generic [ref=e244]:
+        - link "Inicio - Webtools" [ref=e245] [cursor=pointer]:
+          - /url: /
+          - img "Webtools" [ref=e246]
+        - generic [ref=e247]:
+          - paragraph [ref=e248]: Webtools
+          - paragraph [ref=e249]: Paseo de la Castellana 85
+          - paragraph [ref=e250]: 28046 Madrid
+          - paragraph [ref=e251]:
+            - text: "Teléfono:"
+            - link "(+34 91 411 93 24)" [ref=e252] [cursor=pointer]:
+              - /url: tel:+34914119324
+      - navigation "Productos" [ref=e253]:
+        - heading "Productos" [level=2] [ref=e254]
+        - list [ref=e255]:
+          - listitem [ref=e256]:
+            - link "Encuesta.com" [ref=e257] [cursor=pointer]:
+              - /url: /encuestas/
+          - listitem [ref=e258]:
+            - link "MyScore" [ref=e259] [cursor=pointer]:
+              - /url: /myscore-seguimiento-de-kpis/
+          - listitem [ref=e260]:
+            - link "Plataforma Acciones Calidad" [ref=e261] [cursor=pointer]:
+              - /url: /plataforma-de-acciones-de-calidad/
+      - navigation "Consultoría" [ref=e262]:
+        - heading "Consultoría" [level=2] [ref=e263]
+        - list [ref=e264]:
+          - listitem [ref=e265]:
+            - link "Experiencia del cliente" [ref=e266] [cursor=pointer]:
+              - /url: /experiencia-del-cliente/
+          - listitem [ref=e267]:
+            - link "Experiencia del empleado" [ref=e268] [cursor=pointer]:
+              - /url: /experiencia-del-empleado/
+          - listitem [ref=e269]:
+            - link "Investigación de mercado" [ref=e270] [cursor=pointer]:
+              - /url: /servicios-de-investigacion-de-mercados/
+      - navigation "Recursos" [ref=e271]:
+        - heading "Recursos" [level=2] [ref=e272]
+        - list [ref=e273]:
+          - listitem [ref=e274]:
+            - link "Blog" [ref=e275] [cursor=pointer]:
+              - /url: /blog/
+          - listitem [ref=e276]:
+            - link "NPS y CSat" [ref=e277] [cursor=pointer]:
+              - /url: /nps-net-promoterscore/
+          - listitem [ref=e278]:
+            - link "Test de Concepto" [ref=e279] [cursor=pointer]:
+              - /url: /test-de-concepto-producto-precio/
+          - listitem [ref=e280]:
+            - link "Clima Laboral" [ref=e281] [cursor=pointer]:
+              - /url: /clima-laboral/
+          - listitem [ref=e282]:
+            - link "Evaluación 360º" [ref=e283] [cursor=pointer]:
+              - /url: /evaluacion-360o/
+          - listitem [ref=e284]:
+            - link "Encuestas Redaccionales" [ref=e285] [cursor=pointer]:
+              - /url: /encuestas-redaccionales/
+          - listitem [ref=e286]:
+            - link "Exámenes online" [ref=e287] [cursor=pointer]:
+              - /url: /cuestionario-tipo-quiz/
+          - listitem [ref=e288]:
+            - link "Distribución de la Encuesta" [ref=e289] [cursor=pointer]:
+              - /url: /distribucionde-la-encuesta/
+      - paragraph [ref=e291]: © 2026 Webtools. Todos los derechos reservados.
+      - list [ref=e292]:
+        - listitem [ref=e293]:
+          - link "Política de privacidad" [ref=e294] [cursor=pointer]:
+            - /url: /politica-privacidad/
+        - listitem [ref=e295]:
+          - link "Política de cookies" [ref=e296] [cursor=pointer]:
+            - /url: /politica-de-cookies/
+        - listitem [ref=e297]:
+          - link "Aviso legal" [ref=e298] [cursor=pointer]:
+            - /url: /aviso-legal/
+      - generic [ref=e299]:
+        - generic [ref=e300]: "Síguenos en:"
+        - link "Webtools en Facebook" [ref=e301] [cursor=pointer]:
+          - /url: https://www.facebook.com/eswebtools
+          - img [ref=e302]
+        - link "Webtools en Instagram" [ref=e305] [cursor=pointer]:
+          - /url: https://www.instagram.com/webtools.es/
+          - img [ref=e306]
+        - link "Webtools en LinkedIn" [ref=e311] [cursor=pointer]:
+          - /url: https://es.linkedin.com/company/webtools
+          - img [ref=e312]
+  - generic [ref=e319]:
+    - button "Menu" [ref=e320]:
+      - img [ref=e322]
+      - generic: Menu
+    - button "Inspect" [ref=e326]:
+      - img [ref=e328]
+      - generic: Inspect
+    - button "Audit" [ref=e330]:
+      - img [ref=e332]
+      - generic: Audit
+    - button "Settings" [ref=e335]:
+      - img [ref=e337]
+      - generic: Settings

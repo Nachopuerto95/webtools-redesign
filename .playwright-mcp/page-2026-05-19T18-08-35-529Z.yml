@@ -1,0 +1,57 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: DS
+      - generic [ref=e7]:
+        - paragraph [ref=e8]: Design Playground
+        - paragraph [ref=e9]: Component preview
+    - navigation [ref=e10]:
+      - paragraph [ref=e11]: Components
+      - button "Navbar 16" [ref=e12] [cursor=pointer]:
+        - text: Navbar
+        - generic [ref=e13]: "16"
+    - generic [ref=e15]: Hot-reload active
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "Navbar" [level=1] [ref=e20]
+        - tablist [ref=e21]:
+          - tab "v01-stripe-clean" [selected] [ref=e22] [cursor=pointer]
+          - tab "v02-enterprise-topbar" [ref=e23] [cursor=pointer]
+          - tab "v03-linear-dark" [ref=e24] [cursor=pointer]
+          - tab "v04-mega-full" [ref=e25] [cursor=pointer]
+          - tab "v05-sticky-blur" [ref=e26] [cursor=pointer]
+          - tab "v06-glass-floating" [ref=e27] [cursor=pointer]
+          - tab "v07-bold-primary" [ref=e28] [cursor=pointer]
+          - tab "v08-split-cta" [ref=e29] [cursor=pointer]
+          - tab "v09-pill-sections" [ref=e30] [cursor=pointer]
+          - tab "v10-saas-modern" [ref=e31] [cursor=pointer]
+          - tab "v11-transparent-scroll" [ref=e32] [cursor=pointer]
+          - tab "v12-minimal-centered" [ref=e33] [cursor=pointer]
+          - tab "v13-dark-accent" [ref=e34] [cursor=pointer]
+          - tab "v14-bordered-modern" [ref=e35] [cursor=pointer]
+          - tab "v15-dark-shrink" [ref=e36] [cursor=pointer]
+          - tab "v16-expand-to-pill" [ref=e37] [cursor=pointer]
+      - generic [ref=e38]:
+        - generic [ref=e39]: Loading…
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - paragraph [ref=e42]: Tagline · Value proposition
+            - heading [level=2] [ref=e43]: Main headline that explains what the product does
+            - paragraph [ref=e44]: Supporting copy that gives more detail about the offering and the target audience. Two lines max.
+            - generic [ref=e45]:
+              - generic [ref=e46]: Primary CTA
+              - generic [ref=e47]: Secondary CTA →
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - generic [ref=e50]: ◆
+              - generic [ref=e51]: Product A
+              - generic [ref=e52]: Short description of what this product or feature does for the user.
+            - generic [ref=e53]:
+              - generic [ref=e54]: ▲
+              - generic [ref=e55]: Product B
+              - generic [ref=e56]: Short description of what this product or feature does for the user.
+            - generic [ref=e57]:
+              - generic [ref=e58]: ●
+              - generic [ref=e59]: Product C
+              - generic [ref=e60]: Short description of what this product or feature does for the user.

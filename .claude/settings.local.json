@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp:*)",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_navigate",
+      "Bash(npm run:*)",
+      "Bash(curl -s http://localhost:4321)",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_click",
+      "Bash(grep -v '//')",
+      "mcp__playwright__browser_tabs",
+      "Bash(curl -s http://localhost:5177/)",
+      "mcp__playwright__browser_snapshot"
+    ]
+  }
+}

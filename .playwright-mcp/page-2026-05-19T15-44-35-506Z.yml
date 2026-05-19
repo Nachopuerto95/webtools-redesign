@@ -1,0 +1,138 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: DS
+      - generic [ref=e7]:
+        - paragraph [ref=e8]: Design Playground
+        - paragraph [ref=e9]: Component preview
+    - navigation [ref=e10]:
+      - paragraph [ref=e11]: Components
+      - button "Navbar 10" [ref=e12] [cursor=pointer]:
+        - text: Navbar
+        - generic [ref=e13]: "10"
+    - generic [ref=e15]: Hot-reload active
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "Navbar" [level=1] [ref=e20]
+        - tablist [ref=e21]:
+          - tab "v01-stripe-clean" [ref=e22] [cursor=pointer]
+          - tab "v02-enterprise-topbar" [ref=e23] [cursor=pointer]
+          - tab "v03-linear-dark" [ref=e24] [cursor=pointer]
+          - tab "v04-mega-full" [ref=e25] [cursor=pointer]
+          - tab "v05-sticky-blur" [ref=e26] [cursor=pointer]
+          - tab "v06-glass-floating" [ref=e27] [cursor=pointer]
+          - tab "v07-bold-primary" [ref=e28] [cursor=pointer]
+          - tab "v08-split-cta" [active] [selected] [ref=e29] [cursor=pointer]
+          - tab "v09-pill-sections" [ref=e30] [cursor=pointer]
+          - tab "v10-saas-modern" [ref=e31] [cursor=pointer]
+      - generic [ref=e32]:
+        - banner [ref=e216]:
+          - generic [ref=e217]:
+            - link "Webtools — inicio" [ref=e218] [cursor=pointer]:
+              - /url: /
+              - img "webtools" [ref=e219]
+            - navigation "Navegación principal" [ref=e220]:
+              - list [ref=e221]:
+                - listitem [ref=e222]:
+                  - link "Inicio" [ref=e223] [cursor=pointer]:
+                    - /url: /
+                - listitem [ref=e224]:
+                  - button "Software" [ref=e225] [cursor=pointer]:
+                    - text: Software
+                    - img [ref=e226]
+                  - region "Submenú de Software":
+                    - list:
+                      - listitem:
+                        - link "Encuesta.com":
+                          - /url: /encuestas/
+                      - listitem:
+                        - link "MyScore":
+                          - /url: /myscore-seguimiento-de-kpis/
+                      - listitem:
+                        - link "Plataforma Acciones":
+                          - /url: /plataforma-de-acciones-de-calidad/
+                - listitem [ref=e228]:
+                  - button "Consultoría" [ref=e229] [cursor=pointer]:
+                    - text: Consultoría
+                    - img [ref=e230]
+                  - region "Submenú de Consultoría":
+                    - list:
+                      - listitem:
+                        - link "Experiencia del cliente":
+                          - /url: /experiencia-del-cliente/
+                      - listitem:
+                        - link "Experiencia del empleado":
+                          - /url: /experiencia-del-empleado/
+                      - listitem:
+                        - link "Investigación de mercado":
+                          - /url: /servicios-de-investigacion-de-mercados/
+                - listitem [ref=e232]:
+                  - button "Empresa" [ref=e233] [cursor=pointer]:
+                    - text: Empresa
+                    - img [ref=e234]
+                  - region "Submenú de Empresa":
+                    - list:
+                      - listitem:
+                        - link "Casos de éxito":
+                          - /url: /casos-de-exito/
+                      - listitem:
+                        - link "Equipo":
+                          - /url: /equipo/
+                      - listitem:
+                        - link "Contacta":
+                          - /url: /contacto/
+                - listitem [ref=e236]:
+                  - button "Recursos" [ref=e237] [cursor=pointer]:
+                    - text: Recursos
+                    - img [ref=e238]
+                  - region "Submenú de Recursos":
+                    - list:
+                      - listitem:
+                        - link "Blog":
+                          - /url: /blog/
+                      - listitem:
+                        - link "NPS y CSat":
+                          - /url: /nps-net-promoterscore/
+                      - listitem:
+                        - link "Test de Concepto":
+                          - /url: /test-de-concepto-producto-precio/
+                      - listitem:
+                        - link "Clima Laboral":
+                          - /url: /clima-laboral/
+                      - listitem:
+                        - link "Evaluación 360º":
+                          - /url: /evaluacion-360o/
+                      - listitem:
+                        - link "Encuestas Redaccionales":
+                          - /url: /encuestas-redaccionales/
+                      - listitem:
+                        - link "Exámenes online":
+                          - /url: /cuestionario-tipo-quiz/
+                      - listitem:
+                        - link "Distribución de la encuesta":
+                          - /url: /distribucionde-la-encuesta/
+          - link "Solicita una demo con Webtools" [ref=e240] [cursor=pointer]:
+            - /url: /demo-request/
+            - text: Solicita una demo
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - paragraph [ref=e60]: Tagline · Value proposition
+            - heading [level=2] [ref=e61]: Main headline that explains what the product does
+            - paragraph [ref=e62]: Supporting copy that gives more detail about the offering and the target audience. Two lines max.
+            - generic [ref=e63]:
+              - generic [ref=e64]: Primary CTA
+              - generic [ref=e65]: Secondary CTA →
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - generic [ref=e68]: ◆
+              - generic [ref=e69]: Product A
+              - generic [ref=e70]: Short description of what this product or feature does for the user.
+            - generic [ref=e71]:
+              - generic [ref=e72]: ▲
+              - generic [ref=e73]: Product B
+              - generic [ref=e74]: Short description of what this product or feature does for the user.
+            - generic [ref=e75]:
+              - generic [ref=e76]: ●
+              - generic [ref=e77]: Product C
+              - generic [ref=e78]: Short description of what this product or feature does for the user.

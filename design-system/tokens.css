@@ -1,23 +1,33 @@
-/* Design tokens — generated from tokens.json by /init-proyecto */
-/* Update tokens.json and re-run /init-proyecto to regenerate. */
+/* Design tokens — Webtools brand (Brandbook oficial) */
+/* Actualizado con /procesar-referencias desde referencias/marca/ */
+/* Fuente de verdad: tokens.json (este archivo se mantiene en sync manualmente). */
+
+/*
+  FUENTES PROPIETARIAS — requieren autoalojamiento:
+  - 'Sequel 100 Wide' → archivos en referencias/marca/Typography/Sequel 100 Wide/
+    Copiar a web/public/fonts/ y añadir @font-face en el proyecto web.
+  - 'Sequel Sans' → archivos en referencias/marca/Typography/Sequel Sans/
+    Copiar a web/public/fonts/ y añadir @font-face en el proyecto web.
+*/
 
 :root {
-  /* Color */
-  --color-primary:        #0080FF;
-  --color-primary-hover:  #0066cc;
-  --color-accent:         #0693e3;
+  /* Color — paleta oficial Webtools */
+  --color-primary:        #0092FF;  /* Azul 01 — Pantone 2191C */
+  --color-primary-hover:  #007ACC;
+  --color-brand-dark:     #000F41;  /* Azul 02 — Pantone 2766C (navy) */
+  --color-accent:         #3AABFF;
   --color-text:           #0a0a0a;
   --color-text-muted:     #6b7280;
   --color-background:     #ffffff;
-  --color-surface:        #f7f9fc;
-  --color-border:         #e5e7eb;
+  --color-surface:        #f0f5ff;
+  --color-border:         #d1d9e6;
   --color-success:        #10b981;
   --color-warning:        #f59e0b;
   --color-error:          #ef4444;
 
-  /* Typography */
-  --font-display: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-body:    'Inter', system-ui, -apple-system, sans-serif;
+  /* Typography — fuentes propietarias OGJ Type Design (ver comentario arriba) */
+  --font-display: 'Sequel 100 Wide', system-ui, -apple-system, sans-serif;
+  --font-body:    'Sequel Sans', system-ui, -apple-system, sans-serif;
 
   /* Spacing */
   --space-xs:  0.25rem;
@@ -37,7 +47,7 @@
   --radius-full: 9999px;
 
   /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
-  --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
-  --shadow-lg: 0 8px 24px rgba(0,0,0,0.12);
+  --shadow-sm: 0 4px 16px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.12);
 }

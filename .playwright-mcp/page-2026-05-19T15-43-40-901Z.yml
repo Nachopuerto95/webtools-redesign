@@ -1,0 +1,149 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: DS
+      - generic [ref=e7]:
+        - paragraph [ref=e8]: Design Playground
+        - paragraph [ref=e9]: Component preview
+    - navigation [ref=e10]:
+      - paragraph [ref=e11]: Components
+      - button "Navbar 10" [ref=e12] [cursor=pointer]:
+        - text: Navbar
+        - generic [ref=e13]: "10"
+    - generic [ref=e15]: Hot-reload active
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "Navbar" [level=1] [ref=e20]
+        - tablist [ref=e21]:
+          - tab "v01-stripe-clean" [active] [selected] [ref=e22] [cursor=pointer]
+          - tab "v02-enterprise-topbar" [ref=e23] [cursor=pointer]
+          - tab "v03-linear-dark" [ref=e24] [cursor=pointer]
+          - tab "v04-mega-full" [ref=e25] [cursor=pointer]
+          - tab "v05-sticky-blur" [ref=e26] [cursor=pointer]
+          - tab "v06-glass-floating" [ref=e27] [cursor=pointer]
+          - tab "v07-bold-primary" [ref=e28] [cursor=pointer]
+          - tab "v08-split-cta" [ref=e29] [cursor=pointer]
+          - tab "v09-pill-sections" [ref=e30] [cursor=pointer]
+          - tab "v10-saas-modern" [ref=e31] [cursor=pointer]
+      - generic [ref=e32]:
+        - banner [ref=e117]:
+          - navigation "Navegación principal" [ref=e118]:
+            - link "Webtools — inicio" [ref=e119] [cursor=pointer]:
+              - /url: /
+              - img "webtools" [ref=e120]
+            - list [ref=e121]:
+              - listitem [ref=e122]:
+                - link "Inicio" [ref=e123] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e124]:
+                - button "Software" [ref=e125] [cursor=pointer]:
+                  - text: Software
+                  - img [ref=e126]
+                - region "Submenú de Software":
+                  - generic:
+                    - generic:
+                      - link "Encuesta.com Herramienta SaaS en la nube para crear y enviar encuestas. Informes automáticos en tiempo real.":
+                        - /url: /encuestas/
+                        - generic: Encuesta.com
+                        - generic: Herramienta SaaS en la nube para crear y enviar encuestas. Informes automáticos en tiempo real.
+                      - link "MyScore – Dashboards KPIs Plataforma de análisis y KPIs para tomar decisiones mediante dashboards interactivos.":
+                        - /url: /myscore-seguimiento-de-kpis/
+                        - generic: MyScore – Dashboards KPIs
+                        - generic: Plataforma de análisis y KPIs para tomar decisiones mediante dashboards interactivos.
+                      - link "Plataforma Acciones de Calidad Acciones de mejora basadas en recomendaciones automáticas según el peso de cada KPI.":
+                        - /url: /plataforma-de-acciones-de-calidad/
+                        - generic: Plataforma Acciones de Calidad
+                        - generic: Acciones de mejora basadas en recomendaciones automáticas según el peso de cada KPI.
+              - listitem [ref=e128]:
+                - button "Consultoría" [ref=e129] [cursor=pointer]:
+                  - text: Consultoría
+                  - img [ref=e130]
+                - region "Submenú de Consultoría":
+                  - generic:
+                    - generic:
+                      - link "Experiencia del cliente Identifica impulsores clave a lo largo del customer journey con seguimiento automatizado.":
+                        - /url: /experiencia-del-cliente/
+                        - generic: Experiencia del cliente
+                        - generic: Identifica impulsores clave a lo largo del customer journey con seguimiento automatizado.
+                      - link "Experiencia del empleado Medición periódica del eNPS. Identifica tendencias y valida acciones implementadas.":
+                        - /url: /experiencia-del-empleado/
+                        - generic: Experiencia del empleado
+                        - generic: Medición periódica del eNPS. Identifica tendencias y valida acciones implementadas.
+                      - link "Investigación de mercado Test de producto, concepto, precio. Imagen de marca. Segmentación. Usos y actitudes.":
+                        - /url: /servicios-de-investigacion-de-mercados/
+                        - generic: Investigación de mercado
+                        - generic: Test de producto, concepto, precio. Imagen de marca. Segmentación. Usos y actitudes.
+              - listitem [ref=e132]:
+                - button "Empresa" [ref=e133] [cursor=pointer]:
+                  - text: Empresa
+                  - img [ref=e134]
+                - region "Submenú de Empresa":
+                  - generic:
+                    - generic:
+                      - link "Casos de éxito Cómo hemos ayudado a Endesa, Lenovo, Orange, Vodafone y el Museo del Prado.":
+                        - /url: /casos-de-exito/
+                        - generic: Casos de éxito
+                        - generic: Cómo hemos ayudado a Endesa, Lenovo, Orange, Vodafone y el Museo del Prado.
+                      - link "Equipo Sociólogos, desarrolladores y estadísticos expertos en investigación de mercados.":
+                        - /url: /equipo/
+                        - generic: Equipo
+                        - generic: Sociólogos, desarrolladores y estadísticos expertos en investigación de mercados.
+                      - link "Contacta Por teléfono, email o demo virtual. +34 91 411 93 24 · info@webtools.es":
+                        - /url: /contacto/
+                        - generic: Contacta
+                        - generic: Por teléfono, email o demo virtual. +34 91 411 93 24 · info@webtools.es
+              - listitem [ref=e136]:
+                - button "Recursos" [ref=e137] [cursor=pointer]:
+                  - text: Recursos
+                  - img [ref=e138]
+                - region "Submenú de Recursos":
+                  - generic:
+                    - list:
+                      - listitem:
+                        - link "Blog":
+                          - /url: /blog/
+                      - listitem:
+                        - link "NPS y CSat":
+                          - /url: /nps-net-promoterscore/
+                      - listitem:
+                        - link "Test de Concepto":
+                          - /url: /test-de-concepto-producto-precio/
+                      - listitem:
+                        - link "Clima Laboral":
+                          - /url: /clima-laboral/
+                      - listitem:
+                        - link "Evaluación 360º":
+                          - /url: /evaluacion-360o/
+                      - listitem:
+                        - link "Encuestas Redaccionales":
+                          - /url: /encuestas-redaccionales/
+                      - listitem:
+                        - link "Exámenes online":
+                          - /url: /cuestionario-tipo-quiz/
+                      - listitem:
+                        - link "Distribución de la encuesta":
+                          - /url: /distribucionde-la-encuesta/
+            - link "Solicita una demo" [ref=e141] [cursor=pointer]:
+              - /url: /demo-request/
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - paragraph [ref=e60]: Tagline · Value proposition
+            - heading [level=2] [ref=e61]: Main headline that explains what the product does
+            - paragraph [ref=e62]: Supporting copy that gives more detail about the offering and the target audience. Two lines max.
+            - generic [ref=e63]:
+              - generic [ref=e64]: Primary CTA
+              - generic [ref=e65]: Secondary CTA →
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - generic [ref=e68]: ◆
+              - generic [ref=e69]: Product A
+              - generic [ref=e70]: Short description of what this product or feature does for the user.
+            - generic [ref=e71]:
+              - generic [ref=e72]: ▲
+              - generic [ref=e73]: Product B
+              - generic [ref=e74]: Short description of what this product or feature does for the user.
+            - generic [ref=e75]:
+              - generic [ref=e76]: ●
+              - generic [ref=e77]: Product C
+              - generic [ref=e78]: Short description of what this product or feature does for the user.
