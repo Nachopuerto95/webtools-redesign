@@ -15,15 +15,19 @@ Genera variantes del componente indicado en `$ARGUMENTS`.
 
 Comprueba que existen `design-system/guide.md` y `design-system/tokens.json`. Si falta alguno, detente.
 
-## Paso 3 — Recopilar datos reales
+## Paso 3 — Recopilar texto real
 
-Busca en `web/src/` los datos reales que el componente necesita (usa Glob con `**/*nav*`, `**/*site*`, `**/*menu*`, `**/*config*`):
+El texto del componente NUNCA puede ser inventado. Sigue este orden:
 
-- **Navbar/Header**: localiza el archivo de navegación (nav.ts, navigation.ts, menu.ts o similar). Lee la estructura completa — items, URLs, descripciones. Pásala íntegra al subagente. Ningún ítem, URL ni descripción puede ser inventado.
-- **Footer**: busca datos del footer en el mismo archivo de nav o en site.ts / config.ts.
-- **Otros**: busca en `web/src/lib/`, `web/src/data/` o en la página correspondiente.
+**Fuente 1 — código ya migrado** (`web/src/`): busca con Glob `**/*nav*`, `**/*site*`, `**/*menu*`, `**/*config*`, `**/*content*`. Si existe, extrae los textos literales y URLs.
 
-Si no hay archivos de datos relevantes, indica al subagente que use placeholders neutros y NO invente contenido de negocio.
+**Fuente 2 — páginas scrapeadas** (`web/docs/migration-references/markdown/`): si no hay código migrado, busca el archivo .md que corresponda al componente (ej: para un Hero de inicio → `blog.md` o el índice; para una sección de CX → `experiencia-del-cliente.md`). Lee el archivo completo y extrae los textos literales relevantes: títulos, párrafos, items de lista, CTAs, URLs.
+
+**Regla absoluta de texto:**
+- Pasa el texto extraído **literalmente** al subagente — sin parafrasear, sin mejorar.
+- Si un texto tiene errores ortográficos del scraping (falta de tildes), corrígelos solo ortográficamente.
+- Si tras buscar en ambas fuentes no hay texto relevante: usa **solo placeholders semánticos** (`[Título de sección]`, `[Descripción breve]`) — nunca copy de negocio inventado.
+- El subagente NO puede añadir frases, estadísticas, claims o copy que no vengan del texto que le pasas.
 
 ## Paso 4 — Seleccionar estilos
 

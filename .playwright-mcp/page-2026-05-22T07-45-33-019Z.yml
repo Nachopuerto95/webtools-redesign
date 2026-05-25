@@ -1,0 +1,107 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: DS
+      - generic [ref=e7]:
+        - paragraph [ref=e8]: Design Playground
+        - paragraph [ref=e9]: Component preview
+    - navigation [ref=e10]:
+      - paragraph [ref=e11]: Components
+      - button "FloatingCTA 1" [ref=e12] [cursor=pointer]:
+        - text: FloatingCTA
+        - generic [ref=e13]: "1"
+      - button "Navbar 16" [ref=e14] [cursor=pointer]:
+        - text: Navbar
+        - generic [ref=e15]: "16"
+      - button "SectionDivider 4" [ref=e16] [cursor=pointer]:
+        - text: SectionDivider
+        - generic [ref=e17]: "4"
+      - button "SectionWithImg 4" [ref=e18] [cursor=pointer]:
+        - text: SectionWithImg
+        - generic [ref=e19]: "4"
+      - button "TopBar 1" [ref=e20] [cursor=pointer]:
+        - text: TopBar
+        - generic [ref=e21]: "1"
+    - navigation [ref=e22]:
+      - paragraph [ref=e23]: Typography
+      - button "Fonts 6" [ref=e24] [cursor=pointer]:
+        - text: Fonts
+        - generic [ref=e25]: "6"
+    - navigation [ref=e26]:
+      - paragraph [ref=e27]: Labs
+      - button "Dot Grid lab" [ref=e28] [cursor=pointer]:
+        - text: Dot Grid
+        - generic [ref=e29]: lab
+    - generic [ref=e31]: Hot-reload active
+  - main [ref=e33]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "FloatingCTA" [level=1] [ref=e37]
+        - tablist [ref=e38]:
+          - tab "v01-scroll-triggered" [selected] [ref=e39] [cursor=pointer]
+      - generic [ref=e40]:
+        - generic [ref=e42]:
+          - paragraph [ref=e43]: Encuestas · Experiencia · CX
+          - heading [level=2] [ref=e44]: Mejora la experiencia de tus Clientes
+          - paragraph [ref=e45]: Investiga, mide y optimiza para aportar valor en cada paso del camino. Implementamos un sistema de evaluación a tu medida.
+          - generic [ref=e46]:
+            - generic [ref=e47]: Solicitar demo
+            - generic [ref=e48]: Saber más →
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - paragraph [ref=e51]: Encuestas · Experiencia · CX
+            - heading "Mejora la experiencia de tus Clientes" [level=1] [ref=e52]:
+              - text: Mejora la experiencia
+              - text: de tus Clientes
+            - paragraph [ref=e53]: Investigamos, medimos y optimizamos para aportar valor en cada paso del camino.
+            - generic [ref=e54]:
+              - link "Solicitar demo" [ref=e55] [cursor=pointer]:
+                - /url: "#demo"
+              - link "Ver plataforma →" [ref=e56] [cursor=pointer]:
+                - /url: "#plataforma"
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - generic [ref=e59]: ◆
+              - strong [ref=e60]: Sección 1
+              - paragraph [ref=e61]: Contenido de ejemplo. Sigue scrolleando para ver el botón flotante aparecer.
+            - generic [ref=e62]:
+              - generic [ref=e63]: ▲
+              - strong [ref=e64]: Sección 2
+              - paragraph [ref=e65]: Contenido de ejemplo. Sigue scrolleando para ver el botón flotante aparecer.
+            - generic [ref=e66]:
+              - generic [ref=e67]: ●
+              - strong [ref=e68]: Sección 3
+              - paragraph [ref=e69]: Contenido de ejemplo. Sigue scrolleando para ver el botón flotante aparecer.
+            - generic [ref=e70]:
+              - generic [ref=e71]: ◇
+              - strong [ref=e72]: Sección 4
+              - paragraph [ref=e73]: Contenido de ejemplo. Sigue scrolleando para ver el botón flotante aparecer.
+            - generic [ref=e74]:
+              - generic [ref=e75]: △
+              - strong [ref=e76]: Sección 5
+              - paragraph [ref=e77]: Contenido de ejemplo. Sigue scrolleando para ver el botón flotante aparecer.
+            - generic [ref=e78]:
+              - generic [ref=e79]: ○
+              - strong [ref=e80]: Sección 6
+              - paragraph [ref=e81]: Contenido de ejemplo. Sigue scrolleando para ver el botón flotante aparecer.
+            - generic [ref=e82]:
+              - generic [ref=e83]: ◈
+              - strong [ref=e84]: Sección 7
+              - paragraph [ref=e85]: Contenido de ejemplo. Sigue scrolleando para ver el botón flotante aparecer.
+            - generic [ref=e86]:
+              - generic [ref=e87]: ▽
+              - strong [ref=e88]: Sección 8
+              - paragraph [ref=e89]: Contenido de ejemplo. Sigue scrolleando para ver el botón flotante aparecer.
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e93]: ◆
+            - generic [ref=e94]: Feedback Multicanal
+            - generic [ref=e95]: Te ayudamos a recopilar información de calidad e integrarla con los sistemas de tu empresa.
+          - generic [ref=e96]:
+            - generic [ref=e97]: ▲
+            - generic [ref=e98]: Aprendizaje Automático
+            - generic [ref=e99]: Te ayudamos a recopilar información de calidad e integrarla con los sistemas de tu empresa.
+          - generic [ref=e100]:
+            - generic [ref=e101]: ●
+            - generic [ref=e102]: Del Dato a la Acción
+            - generic [ref=e103]: Te ayudamos a recopilar información de calidad e integrarla con los sistemas de tu empresa.

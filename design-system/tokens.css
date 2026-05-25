@@ -25,8 +25,8 @@
   --color-warning:        #f59e0b;
   --color-error:          #ef4444;
 
-  /* Typography — fuentes propietarias OGJ Type Design (ver comentario arriba) */
-  --font-display: 'Sequel 100 Wide', system-ui, -apple-system, sans-serif;
+  /* Typography — display: Plus Jakarta Sans (Google Fonts) · body: Sequel Sans (propietaria) */
+  --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   --font-body:    'Sequel Sans', system-ui, -apple-system, sans-serif;
 
   /* Spacing */

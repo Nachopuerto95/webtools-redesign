@@ -1,0 +1,25 @@
+[      83ms] [INFO] <Suspense> is an experimental feature and its API will likely change. @ http://localhost:5173/node_modules/.vite/deps/vue.js?v=94d76c26:9416
+[     197ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5173/favicon.ico:0
+[   10620ms] [WARNING] [Vue warn]: Unhandled error during execution of setup function 
+  at <DotGridLab> 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/vue.js?v=94d76c26:2224
+[   10620ms] [WARNING] [Vue warn]: Unhandled error during execution of component update 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/vue.js?v=94d76c26:2224
+[   10623ms] ReferenceError: ref is not defined
+    at setup (http://localhost:5173/src/DotGridLab.vue:86:23)
+    at callWithErrorHandling (http://localhost:5173/node_modules/.vite/deps/vue.js?v=94d76c26:2372:19)
+    at setupStatefulComponent (http://localhost:5173/node_modules/.vite/deps/vue.js?v=94d76c26:10328:25)
+    at setupComponent (http://localhost:5173/node_modules/.vite/deps/vue.js?v=94d76c26:10290:36)
+    at mountComponent (http://localhost:5173/node_modules/.vite/deps/vue.js?v=94d76c26:8214:7)
+    at processComponent (http://localhost:5173/node_modules/.vite/deps/vue.js?v=94d76c26:8180:9)
+    at patch (http://localhost:5173/node_modules/.vite/deps/vue.js?v=94d76c26:7677:11)
+    at mountChildren (http://localhost:5173/node_modules/.vite/deps/vue.js?v=94d76c26:7928:7)
+    at mountElement (http://localhost:5173/node_modules/.vite/deps/vue.js?v=94d76c26:7844:7)
+    at processElement (http://localhost:5173/node_modules/.vite/deps/vue.js?v=94d76c26:7799:7)
+[   23768ms] [WARNING] [Vue warn]: Unhandled error during execution of scheduler flush 
+  at <DotGridLab> 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/vue.js?v=94d76c26:2224
+[   23767ms] TypeError: Cannot read properties of null (reading 'flags')
+    at http://localhost:5173/node_modules/.vite/deps/vue.js?v=94d76c26:2708:28
+    at callWithErrorHandling (http://localhost:5173/node_modules/.vite/deps/vue.js?v=94d76c26:2372:33)
+    at flushJobs (http://localhost:5173/node_modules/.vite/deps/vue.js?v=94d76c26:2580:9)

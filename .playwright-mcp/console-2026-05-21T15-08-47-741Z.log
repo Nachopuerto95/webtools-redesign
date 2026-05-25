@@ -1,0 +1,72 @@
+[  136668ms] ReferenceError: Cannot access 'MIN_R' before initialization
+    at updateRadii (http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:21:11)
+    at resize (http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:14:5)
+    at http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:16:3
+    at http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:58:3
+[  161955ms] ReferenceError: Cannot access 'MIN_R' before initialization
+    at updateRadii (http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:21:11)
+    at resize (http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:14:5)
+    at http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:16:3
+    at http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:58:3
+[  164410ms] ReferenceError: Cannot access 'MIN_R' before initialization
+    at updateRadii (http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:21:11)
+    at resize (http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:14:5)
+    at http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:16:3
+    at http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:58:3
+[  187296ms] ReferenceError: Cannot access 'MIN_R' before initialization
+    at updateRadii (http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:21:11)
+    at resize (http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:14:5)
+    at http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:16:3
+    at http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:58:3
+[  190358ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:4321/@vite/client:1695
+[  192699ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:4321/@vite/client:1766
+[  196041ms] [ERROR] WebSocket connection to 'ws://localhost:4321/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:4321/@vite/client:1766
+[  225186ms] [ERROR] [vite] Error: send was called before connect
+    at Object.send (http://localhost:4321/@vite/client:414:17)
+    at HMRClient.send (http://localhost:4321/@vite/client:136:20)
+    at HMRContext.send (http://localhost:4321/@vite/client:100:20)
+    at AstroDevToolbar.setAppStatus (http://localhost:4321/node_modules/astro/dist/runtime/client/dev-toolbar/toolbar.js?v=0fc0a2ad:430:22)
+    at AstroDevToolbar.toggleAppStatus (http://localhost:4321/node_modules/astro/dist/runtime/client/dev-toolbar/toolbar.js?v=0fc0a2ad:389:18)
+    at HTMLButtonElement.<anonymous> (http://localhost:4321/node_modules/astro/dist/runtime/client/dev-toolbar/toolbar.js?v=0fc0a2ad:306:20) @ http://localhost:4321/@vite/client:1613
+[  225186ms] [ERROR] [vite] Error: send was called before connect
+    at Object.send (http://localhost:4321/@vite/client:414:17)
+    at HMRClient.send (http://localhost:4321/@vite/client:136:20)
+    at HMRContext.send (http://localhost:4321/@vite/client:100:20)
+    at AstroDevToolbar.toggleAppStatus (http://localhost:4321/node_modules/astro/dist/runtime/client/dev-toolbar/toolbar.js?v=0fc0a2ad:391:25)
+    at async HTMLButtonElement.<anonymous> (http://localhost:4321/node_modules/astro/dist/runtime/client/dev-toolbar/toolbar.js?v=0fc0a2ad:306:9) @ http://localhost:4321/@vite/client:1613
+[  226937ms] [ERROR] [vite] Error: send was called before connect
+    at Object.send (http://localhost:4321/@vite/client:414:17)
+    at HMRClient.send (http://localhost:4321/@vite/client:136:20)
+    at HMRContext.send (http://localhost:4321/@vite/client:100:20)
+    at AstroDevToolbar.setAppStatus (http://localhost:4321/node_modules/astro/dist/runtime/client/dev-toolbar/toolbar.js?v=0fc0a2ad:430:22)
+    at AstroDevToolbar.toggleAppStatus (http://localhost:4321/node_modules/astro/dist/runtime/client/dev-toolbar/toolbar.js?v=0fc0a2ad:384:35)
+    at HTMLButtonElement.<anonymous> (http://localhost:4321/node_modules/astro/dist/runtime/client/dev-toolbar/toolbar.js?v=0fc0a2ad:306:20) @ http://localhost:4321/@vite/client:1613
+[  226937ms] [ERROR] [vite] Error: send was called before connect
+    at Object.send (http://localhost:4321/@vite/client:414:17)
+    at HMRClient.send (http://localhost:4321/@vite/client:136:20)
+    at HMRContext.send (http://localhost:4321/@vite/client:100:20)
+    at AstroDevToolbar.setAppStatus (http://localhost:4321/node_modules/astro/dist/runtime/client/dev-toolbar/toolbar.js?v=0fc0a2ad:430:22)
+    at AstroDevToolbar.toggleAppStatus (http://localhost:4321/node_modules/astro/dist/runtime/client/dev-toolbar/toolbar.js?v=0fc0a2ad:389:18)
+    at async HTMLButtonElement.<anonymous> (http://localhost:4321/node_modules/astro/dist/runtime/client/dev-toolbar/toolbar.js?v=0fc0a2ad:306:9) @ http://localhost:4321/@vite/client:1613
+[  226937ms] [ERROR] [vite] Error: send was called before connect
+    at Object.send (http://localhost:4321/@vite/client:414:17)
+    at HMRClient.send (http://localhost:4321/@vite/client:136:20)
+    at HMRContext.send (http://localhost:4321/@vite/client:100:20)
+    at AstroDevToolbar.toggleAppStatus (http://localhost:4321/node_modules/astro/dist/runtime/client/dev-toolbar/toolbar.js?v=0fc0a2ad:391:25)
+    at async HTMLButtonElement.<anonymous> (http://localhost:4321/node_modules/astro/dist/runtime/client/dev-toolbar/toolbar.js?v=0fc0a2ad:306:9) @ http://localhost:4321/@vite/client:1613
+[  227658ms] [ERROR] [vite] Error: send was called before connect
+    at Object.send (http://localhost:4321/@vite/client:414:17)
+    at HMRClient.send (http://localhost:4321/@vite/client:136:20)
+    at HMRContext.send (http://localhost:4321/@vite/client:100:20)
+    at AstroDevToolbar.setAppStatus (http://localhost:4321/node_modules/astro/dist/runtime/client/dev-toolbar/toolbar.js?v=0fc0a2ad:430:22)
+    at AstroDevToolbar.toggleAppStatus (http://localhost:4321/node_modules/astro/dist/runtime/client/dev-toolbar/toolbar.js?v=0fc0a2ad:384:35)
+    at HTMLButtonElement.<anonymous> (http://localhost:4321/node_modules/astro/dist/runtime/client/dev-toolbar/toolbar.js?v=0fc0a2ad:306:20) @ http://localhost:4321/@vite/client:1613
+[  233335ms] ReferenceError: Cannot access 'MIN_R' before initialization
+    at updateRadii (http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:21:11)
+    at resize (http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:14:5)
+    at http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:16:3
+    at http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:58:3
+[  241880ms] ReferenceError: MIN_R is not defined
+    at frame (http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:25:24)
+    at http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:50:3
+    at http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:51:3

@@ -1,0 +1,8 @@
+[   48842ms] ReferenceError: MIN_R is not defined
+    at frame (http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:25:24)
+    at http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:50:3
+    at http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:51:3
+[   55152ms] ReferenceError: MIN_R is not defined
+    at frame (http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:25:24)
+    at http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:50:3
+    at http://localhost:4321/src/components/sections/HomeHero.astro?astro&type=script&index=0&lang.ts:51:3

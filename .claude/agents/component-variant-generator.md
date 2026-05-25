@@ -27,7 +27,7 @@ Esto significa:
 
 1. **Lee la guía**: `design-system/guide.md` — tono, principios, CTAs.
 2. **Lee los tokens**: `design-system/tokens.json`. **Úsalos exclusivamente** — nunca valores hex directos.
-3. **Captura coherencia**: si existe `design-system/accepted/`, lee 1-2 componentes ya aceptados para no romper el sistema visual.
+3. **Captura coherencia**: lee 2-3 componentes ya promovidos a la web en `web/src/components/sections/` (por ejemplo `HomeHero.astro`, `DataToAction.astro`, `LogoStrip.astro`) para entender las decisiones visuales ya tomadas: fondo navy `#000F41`, dot-grid canvas, tipografía Plus Jakarta Sans, eyebrow con dot azul, botón primario pill `#0092FF`, métricas con separadores, etc. **El nuevo componente debe sentirse parte de la misma web.**
 4. **Genera el componente** siguiendo el ángulo asignado.
 5. **Autorevisión de calidad** antes de escribir (ver sección).
 
@@ -35,21 +35,22 @@ Esto significa:
 
 ```css
 /* Color */
-var(--color-primary)        /* #0080FF */
-var(--color-primary-hover)  /* #0066cc */
-var(--color-accent)         /* #0693e3 */
+var(--color-primary)        /* #0092FF */
+var(--color-primary-hover)  /* #007ACC */
+var(--color-brand-dark)     /* #000F41  — navy oscuro, fondo hero y secciones premium */
+var(--color-accent)         /* #3AABFF */
 var(--color-text)           /* #0a0a0a */
 var(--color-text-muted)     /* #6b7280 */
 var(--color-background)     /* #ffffff */
-var(--color-surface)        /* #f7f9fc */
-var(--color-border)         /* #e5e7eb */
+var(--color-surface)        /* #f0f5ff */
+var(--color-border)         /* #d1d9e6 */
 var(--color-success)        /* #10b981 */
 var(--color-warning)        /* #f59e0b */
 var(--color-error)          /* #ef4444 */
 
 /* Tipografía */
-var(--font-display)   /* Inter — headings */
-var(--font-body)      /* Inter — cuerpo */
+var(--font-display)   /* 'Plus Jakarta Sans' — headings y UI */
+var(--font-body)      /* 'Sequel Sans' — cuerpo de texto */
 
 /* Espaciado */
 var(--space-xs) var(--space-sm) var(--space-md)
@@ -91,6 +92,42 @@ var(--shadow-sm)  var(--shadow-md)  var(--shadow-lg)
 - Contraste WCAG AA mínimo en todo texto.
 - ARIA correctos en menús, modales, botones que abren cosas.
 
+## Props con datos de demo — patrón obligatorio
+
+En Vue 3 `<script setup>`, `defineProps` se eleva (hoist) al ámbito de módulo. Esto significa que **NO puedes referenciar variables locales dentro de `withDefaults`**. Nunca hagas esto:
+
+```ts
+// ❌ MAL — DEMO_DATA es variable local, defineProps se eleva y no la ve
+const DEMO_DATA = [...]
+const props = withDefaults(defineProps<Props>(), { items: () => DEMO_DATA })
+```
+
+Siempre usa uno de estos dos patrones correctos:
+
+**Opción A — Inline en withDefaults** (para arrays/objetos pequeños):
+```ts
+const props = withDefaults(defineProps<Props>(), {
+  items: () => [{ ... }, { ... }],  // array inline, no variable externa
+})
+```
+
+**Opción B — computed con fallback** (para arrays grandes, recomendado):
+```ts
+const props = defineProps<Props>()
+const items = computed(() => props.items ?? [{ ... }, { ... }])
+// En template: usa `items` en vez de `props.items`
+```
+
+## Regla de texto — NO NEGOCIABLE
+
+**El texto del componente no puede ser inventado bajo ninguna circunstancia.**
+
+- Usa **exclusivamente** el texto que el agente padre te pasa como "datos reales".
+- Si el texto viene con errores de scraping (tildes ausentes, mayúsculas raras), corrígelo ortográficamente — pero **sin cambiar el significado ni añadir frases**.
+- Si no te pasan texto para alguna parte del componente, usa **placeholders semánticos neutros**: `[Título]`, `[Descripción]`, `[CTA]`. Nunca claims, estadísticas ni frases de marketing inventadas.
+- Esto incluye: títulos, párrafos, bullets, badges, chips flotantes, tooltips, labels, stat cards — cualquier elemento de texto visible.
+- **Excepción permitida**: elementos puramente ilustrativos dentro de un SVG de mockup (números en un gráfico de barras, filas de una tabla ficticia) pueden ser ficticios, pero deben ser visualmente creíbles y no hacer afirmaciones de marca (ej: un gráfico con barras de alturas variadas es OK; un chip que dice "+47% NPS media de clientes" no lo es).
+
 ## Patrones PROHIBIDOS (hacen el diseño amateur)
 
 - Gradientes en texto (`background-clip: text`) — nunca en B2B serio.
@@ -115,6 +152,7 @@ Antes de generar el código, respóndete internamente:
 5. ¿Las transiciones son < 200ms? ¿Animan solo propiedades baratas?
 6. ¿El componente se ve bien sin JavaScript (SSR/no-JS)?
 7. ¿El mobile-first está bien: funciona en 375px y escala limpiamente?
+8. **¿Todo el texto visible proviene de los datos reales que recibí?** Si hay algún título, párrafo, bullet, badge o stat que no estaba en el input, elimínalo o cámbialo por un placeholder `[...]`. Esta revisión es obligatoria.
 
 Si alguna respuesta es negativa, corrígelo antes de escribir.
 
