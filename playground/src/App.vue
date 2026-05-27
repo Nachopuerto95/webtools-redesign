@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, watch, defineAsyncComponent } from 'vue'
+import { ref, watch, computed, defineAsyncComponent } from 'vue'
 import DotGridLab from './DotGridLab.vue'
 
 // ─── Components ───────────────────────────────────────────
@@ -26,6 +26,15 @@ watch(selected, (name) => {
 function variantsOf(name: string) {
   return Object.keys(componentMap[name] ?? {}).sort()
 }
+
+// ─── Component type detection ──────────────────────────────
+// Algunos componentes usan position:sticky/fixed relativo al viewport
+// y necesitan un preview especial (componente arriba, contenido debajo).
+// Añadir aquí cualquier nombre de componente que use fixed/sticky global.
+const PAGE_TOP_COMPONENTS = ['Navbar', 'Header', 'Nav', 'Menu', 'Topbar', 'Toolbar']
+const isNavbarComponent = computed(() =>
+  PAGE_TOP_COMPONENTS.some(n => selected.value?.toLowerCase().includes(n.toLowerCase()))
+)
 
 // ─── View switcher ─────────────────────────────────────────
 type View = 'components' | 'typography' | 'dotgrid'
@@ -179,8 +188,40 @@ const activeFontObj = () => fonts.find(f => f.name === activeFont.value) ?? font
             </div>
           </div>
 
-          <div class="preview-shell">
-            <!-- Mock section ABOVE — contexto antes del componente -->
+          <!-- ── Navbar preview: componente arriba, página simulada debajo ── -->
+          <div v-if="isNavbarComponent" class="preview-shell preview-shell--page">
+            <Suspense v-if="activeVariant && componentMap[selected]?.[activeVariant]">
+              <component :is="componentMap[selected][activeVariant]" />
+              <template #fallback>
+                <div class="loading">Loading…</div>
+              </template>
+            </Suspense>
+
+            <!-- Página simulada debajo del nav para dar contexto de scroll -->
+            <div class="page-mock page-mock--navbar-hero" aria-hidden="true">
+              <div class="mock-hero">
+                <p class="mock-eyebrow">Encuestas · Experiencia · CX</p>
+                <h2 class="mock-h1">Mejora la experiencia<br>de tus Clientes</h2>
+                <p class="mock-lead">Investiga, mide y optimiza para aportar valor en cada paso del camino. Implementamos un sistema de evaluación a tu medida.</p>
+                <div class="mock-btns">
+                  <span class="mock-btn-primary">Solicitar demo</span>
+                  <span class="mock-btn-secondary">Saber más →</span>
+                </div>
+              </div>
+            </div>
+            <div class="page-mock page-mock--below" aria-hidden="true">
+              <div class="mock-cards-row">
+                <div class="mock-card" v-for="i in 3" :key="i">
+                  <div class="mock-card-icon">{{ ['◆', '▲', '●'][i-1] }}</div>
+                  <div class="mock-card-name">{{ ['Feedback Multicanal', 'Aprendizaje Automático', 'Del Dato a la Acción'][i-1] }}</div>
+                  <div class="mock-card-desc">Te ayudamos a recopilar información de calidad e integrarla con los sistemas de tu empresa.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── Preview normal: secciones (Footer, Hero, CTABanner…) ── -->
+          <div v-else class="preview-shell">
             <div class="page-mock page-mock--above" aria-hidden="true">
               <div class="mock-hero">
                 <p class="mock-eyebrow">Encuestas · Experiencia · CX</p>
@@ -200,7 +241,6 @@ const activeFontObj = () => fonts.find(f => f.name === activeFont.value) ?? font
               </template>
             </Suspense>
 
-            <!-- Mock section BELOW — contexto después del componente -->
             <div class="page-mock page-mock--below" aria-hidden="true">
               <div class="mock-cards-row">
                 <div class="mock-card" v-for="i in 3" :key="i">
@@ -412,6 +452,23 @@ body {
   color: #fff; font-weight: 600;
 }
 .preview-shell { flex: 1; background: var(--color-background, #fff); }
+
+/* Modo navbar: el componente va arriba del todo, sin mock hero encima */
+.preview-shell--page {
+  flex: 1;
+  background: var(--color-background, #fff);
+  /* Sin overflow aquí — dejamos que el documento scrollee normalmente
+     para que position:sticky del navbar funcione respecto al viewport */
+}
+
+.page-mock--navbar-hero {
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  padding: 4rem 2.5rem;
+}
 
 /* ── Components page mock ── */
 .page-mock {

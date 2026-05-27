@@ -1,0 +1,103 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: DS
+      - generic [ref=e7]:
+        - paragraph [ref=e8]: Design Playground
+        - paragraph [ref=e9]: Component preview
+    - navigation [ref=e10]:
+      - paragraph [ref=e11]: Components
+      - button "CTABanner 5" [ref=e12] [cursor=pointer]:
+        - text: CTABanner
+        - generic [ref=e13]: "5"
+      - button "ClientesSatisfechos 4" [ref=e14] [cursor=pointer]:
+        - text: ClientesSatisfechos
+        - generic [ref=e15]: "4"
+      - button "FloatingCTA 1" [ref=e16] [cursor=pointer]:
+        - text: FloatingCTA
+        - generic [ref=e17]: "1"
+      - button "Footer 10" [ref=e18] [cursor=pointer]:
+        - text: Footer
+        - generic [ref=e19]: "10"
+      - button "Navbar 24" [ref=e20] [cursor=pointer]:
+        - text: Navbar
+        - generic [ref=e21]: "24"
+      - button "PoweredBy 2" [active] [ref=e22] [cursor=pointer]:
+        - text: PoweredBy
+        - generic [ref=e23]: "2"
+      - button "SectionDivider 4" [ref=e24] [cursor=pointer]:
+        - text: SectionDivider
+        - generic [ref=e25]: "4"
+      - button "SectionWithImg 4" [ref=e26] [cursor=pointer]:
+        - text: SectionWithImg
+        - generic [ref=e27]: "4"
+      - button "TopBar 1" [ref=e28] [cursor=pointer]:
+        - text: TopBar
+        - generic [ref=e29]: "1"
+      - button "WhyWebtools 7" [ref=e30] [cursor=pointer]:
+        - text: WhyWebtools
+        - generic [ref=e31]: "7"
+    - navigation [ref=e32]:
+      - paragraph [ref=e33]: Typography
+      - button "Fonts 6" [ref=e34] [cursor=pointer]:
+        - text: Fonts
+        - generic [ref=e35]: "6"
+    - navigation [ref=e36]:
+      - paragraph [ref=e37]: Labs
+      - button "Dot Grid lab" [ref=e38] [cursor=pointer]:
+        - text: Dot Grid
+        - generic [ref=e39]: lab
+    - generic [ref=e41]: Hot-reload active
+  - main [ref=e43]:
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - heading "PoweredBy" [level=1] [ref=e84]
+        - tablist [ref=e48]:
+          - tab "v05-design-sheet" [selected] [ref=e85] [cursor=pointer]
+          - tab "v06-hoja-es" [ref=e86] [cursor=pointer]
+      - generic [ref=e54]:
+        - generic [ref=e56]:
+          - paragraph [ref=e57]: Encuestas · Experiencia · CX
+          - heading [level=2] [ref=e58]: Mejora la experiencia de tus Clientes
+          - paragraph [ref=e59]: Investiga, mide y optimiza para aportar valor en cada paso del camino. Implementamos un sistema de evaluación a tu medida.
+          - generic [ref=e60]:
+            - generic [ref=e61]: Solicitar demo
+            - generic [ref=e62]: Saber más →
+        - generic [ref=e88]:
+          - generic [ref=e90]:
+            - generic [ref=e91]: Powered by
+            - img [ref=e93]
+          - generic [ref=e104]:
+            - generic [ref=e105]: Powered by
+            - img [ref=e107]
+          - generic [ref=e118]:
+            - generic [ref=e119]: Powered by
+            - img [ref=e122]
+          - generic [ref=e133]:
+            - generic [ref=e134]: Powered by
+            - img [ref=e137]
+          - generic [ref=e148]:
+            - generic [ref=e149]: Powered by
+            - img [ref=e152]
+          - generic [ref=e163]:
+            - generic [ref=e164]: POWERED BY
+            - img [ref=e166]
+          - generic [ref=e177]:
+            - generic [ref=e178]: Powered by
+            - img [ref=e180]
+          - generic [ref=e191]:
+            - generic [ref=e192]: Powered by
+            - img [ref=e195]
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - generic [ref=e73]: ◆
+            - generic [ref=e74]: Feedback Multicanal
+            - generic [ref=e75]: Te ayudamos a recopilar información de calidad e integrarla con los sistemas de tu empresa.
+          - generic [ref=e76]:
+            - generic [ref=e77]: ▲
+            - generic [ref=e78]: Aprendizaje Automático
+            - generic [ref=e79]: Te ayudamos a recopilar información de calidad e integrarla con los sistemas de tu empresa.
+          - generic [ref=e80]:
+            - generic [ref=e81]: ●
+            - generic [ref=e82]: Del Dato a la Acción
+            - generic [ref=e83]: Te ayudamos a recopilar información de calidad e integrarla con los sistemas de tu empresa.

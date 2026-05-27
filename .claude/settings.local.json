@@ -38,7 +38,10 @@
       "Read(//c/Users/nache/**)",
       "Bash(git -C C:/Users/nache/jpuerto/webtools/webtools-redesign/web diff --stat HEAD)",
       "Bash(git -C C:/Users/nache/jpuerto/webtools/webtools-redesign/web status)",
-      "Bash(git -C C:/Users/nache/jpuerto/webtools/webtools-redesign/web diff HEAD -- src/components/sections/HomeHero.astro)"
+      "Bash(git -C C:/Users/nache/jpuerto/webtools/webtools-redesign/web diff HEAD -- src/components/sections/HomeHero.astro)",
+      "Bash(grep:*)",
+      "mcp__playwright__browser_hover",
+      "mcp__playwright__browser_run_code_unsafe"
     ]
   }
 }
